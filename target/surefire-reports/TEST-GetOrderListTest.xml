@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GetOrderListTest" time="13.392" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GetOrderListTest" time="15.284" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="java.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/mikhail/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/mikhail/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar:/Users/mikhail/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar:"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar /Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire 2025-10-20T00-35-07_976-jvmRun1 surefire-20251020003508567_1tmp surefire_0-20251020003508567_2tmp"/>
+    <property name="sun.java.command" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020004907204_3.jar /Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire 2025-10-20T00-49-06_673-jvmRun1 surefire-20251020004907204_1tmp surefire_0-20251020004907204_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/mikhail/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/mikhail/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar:/Users/mikhail/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/mikhail/.m2/repository/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar:/Users/mikhail/.m2/repository/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar:/Users/mikhail/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mikhail"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020004907204_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.28+6-LTS"/>
     <property name="user.name" value="mikhail"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="checkOrderNonexistence" classname="GetOrderListTest" time="0.169">
+  <testcase name="checkOrderNonexistence" classname="GetOrderListTest" time="0.182">
     <system-out><![CDATA[Request method:	GET
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/track?t=1626785
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/track?t=7282403
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -74,28 +74,28 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Content-Type: application/json; charset=utf-8
-Content-Length: 53
-Date: Sun, 19 Oct 2025 21:35:15 GMT
-Set-Cookie: _yasc=GzbOosOn3FxH6NSFCwZEbGb/4uOz+aq90l/9Y0yHZNBKYPqWmgp/Fo6Zj1I+N4I=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+X-Request-Id: 1760910553653936-11586175505073501349
 Access-Control-Allow-Origin: *
-ETag: W/"35-9AMR6Tx1cHRNKBS31QzpKEpC5/Y"
 X-Powered-By: Express
-X-Request-Id: 1760909715640515-2463085419998222597
+Content-Length: 53
+Set-Cookie: _yasc=bmuqRdqqw6ztbQNHmnRDSMpw+7N9vjE8jjrgR4h7IHgyBTNZfXrYtzB96i3O7c4=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:13 GMT; secure
+Date: Sun, 19 Oct 2025 21:49:13 GMT
+ETag: W/"35-9AMR6Tx1cHRNKBS31QzpKEpC5/Y"
+Content-Type: application/json; charset=utf-8
 
 {
     "code": 404,
     "message": "Заказ не найден"
 }
 HTTP/1.1 404 Not Found
-Content-Type: application/json; charset=utf-8
-Content-Length: 53
-Date: Sun, 19 Oct 2025 21:35:15 GMT
-Set-Cookie: _yasc=GzbOosOn3FxH6NSFCwZEbGb/4uOz+aq90l/9Y0yHZNBKYPqWmgp/Fo6Zj1I+N4I=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+X-Request-Id: 1760910553653936-11586175505073501349
 Access-Control-Allow-Origin: *
-ETag: W/"35-9AMR6Tx1cHRNKBS31QzpKEpC5/Y"
 X-Powered-By: Express
-X-Request-Id: 1760909715640515-2463085419998222597
+Content-Length: 53
+Set-Cookie: _yasc=bmuqRdqqw6ztbQNHmnRDSMpw+7N9vjE8jjrgR4h7IHgyBTNZfXrYtzB96i3O7c4=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:13 GMT; secure
+Date: Sun, 19 Oct 2025 21:49:13 GMT
+ETag: W/"35-9AMR6Tx1cHRNKBS31QzpKEpC5/Y"
+Content-Type: application/json; charset=utf-8
 
 {
     "code": 404,
@@ -103,7 +103,7 @@ X-Request-Id: 1760909715640515-2463085419998222597
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkOrderFromId" classname="GetOrderListTest" time="7.337">
+  <testcase name="checkOrderFromId" classname="GetOrderListTest" time="7.224">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
 Proxy:			<none>
@@ -117,14 +117,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-ETag: W/"65b8-CLKcCwSuBTmIZcfnXW5gmIKmFJc"
-Content-Length: 26040
-Content-Type: application/json; charset=utf-8
+Set-Cookie: _yasc=4zG3GIsOaUGdNHpxr5930TeN3Zs38hk/JbRiOMzNUy8xpu4IdSV34u+JLG+f3hA=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:13 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1760909715745455-1266330644395614438
 Access-Control-Allow-Origin: *
-Date: Sun, 19 Oct 2025 21:35:22 GMT
-Set-Cookie: _yasc=Lrvj+IRNykGPb07Bza7He6QZC8b0I5266aCt7pBBvZV80+El3+AICa47khXrCQ==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+X-Request-Id: 1760910553775543-4236238943544434418
+Content-Length: 26040
+Date: Sun, 19 Oct 2025 21:49:20 GMT
+ETag: W/"65b8-OmwpzuiVityLqJphRRqk79nrxjw"
+Content-Type: application/json; charset=utf-8
 
 {
     "orders": [
@@ -690,7 +690,7 @@ Set-Cookie: _yasc=Lrvj+IRNykGPb07Bza7He6QZC8b0I5266aCt7pBBvZV80+El3+AICa47khXrCQ
     ],
     "pageInfo": {
         "page": 0,
-        "total": 124653,
+        "total": 124669,
         "limit": 30
     },
     "availableStations": [
@@ -1834,14 +1834,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Set-Cookie: _yasc=IhZkRTZZd3KXcas2gP/K6WcwZ80DzeBSgDk4BxHDls7qQ5gg74C/2sIcOgVhJJo=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:22 GMT; secure
-Content-Length: 326
-X-Powered-By: Express
-ETag: W/"146-F3SN3JKEQW3iMNnnAyby8BQpoHA"
+X-Request-Id: 1760910560898046-3832896182059523326
 Content-Type: application/json; charset=utf-8
-Date: Sun, 19 Oct 2025 21:35:23 GMT
-X-Request-Id: 1760909722978072-7020731171452130358
+ETag: W/"146-F3SN3JKEQW3iMNnnAyby8BQpoHA"
+Access-Control-Allow-Origin: *
+X-Powered-By: Express
+Set-Cookie: _yasc=7ZFBOQnAF0C9unvROebwOkPoFW53oEGgqDvO24JTYJydE8c/tEjyvYmbFk8Pl5M=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:20 GMT; secure
+Date: Sun, 19 Oct 2025 21:49:20 GMT
+Content-Length: 326
 
 {
     "order": {
@@ -1866,7 +1866,7 @@ X-Request-Id: 1760909722978072-7020731171452130358
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkOrderWithoutId" classname="GetOrderListTest" time="0.104">
+  <testcase name="checkOrderWithoutId" classname="GetOrderListTest" time="0.073">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/track?t=
 Proxy:			<none>
@@ -1880,28 +1880,28 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
 Access-Control-Allow-Origin: *
 X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Date: Sun, 19 Oct 2025 21:35:23 GMT
-Set-Cookie: _yasc=12zQvYwNYUvUaVMR9ZrCLULI+qBGuQJ3fXwYh+aT7wVrCT1bvcWl+MvMZk3qmV0=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:23 GMT; secure
-Content-Length: 82
-X-Request-Id: 1760909723092096-18218745690862434885
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
+Date: Sun, 19 Oct 2025 21:49:20 GMT
+Content-Length: 82
+Set-Cookie: _yasc=MZkP3M+dLTcm0/xPYWmRZiNkFJpvag51PJUbXsEM1rSMayhuJh8ZqcXjbHh0eQ==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:20 GMT; secure
+X-Request-Id: 1760910560981045-2927444107294644542
 
 {
     "code": 400,
     "message": "Недостаточно данных для поиска"
 }
 HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
 Access-Control-Allow-Origin: *
 X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Date: Sun, 19 Oct 2025 21:35:23 GMT
-Set-Cookie: _yasc=12zQvYwNYUvUaVMR9ZrCLULI+qBGuQJ3fXwYh+aT7wVrCT1bvcWl+MvMZk3qmV0=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:23 GMT; secure
-Content-Length: 82
-X-Request-Id: 1760909723092096-18218745690862434885
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
+Date: Sun, 19 Oct 2025 21:49:20 GMT
+Content-Length: 82
+Set-Cookie: _yasc=MZkP3M+dLTcm0/xPYWmRZiNkFJpvag51PJUbXsEM1rSMayhuJh8ZqcXjbHh0eQ==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:20 GMT; secure
+X-Request-Id: 1760910560981045-2927444107294644542
 
 {
     "code": 400,
@@ -1909,7 +1909,7 @@ ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkThatOrdersListIsReturned" classname="GetOrderListTest" time="5.766">
+  <testcase name="checkThatOrdersListIsReturned" classname="GetOrderListTest" time="7.793">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
 Proxy:			<none>
@@ -1923,14 +1923,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-X-Powered-By: Express
+X-Request-Id: 1760910561063125-7333329256556922828
 Content-Type: application/json; charset=utf-8
-Set-Cookie: _yasc=bqQa9rYusJJ8oLUwG4Fy/hKTeJ65/RUcsCjkYO8A3xWh48UbhFOuir16xSAyx7I=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:23 GMT; secure
-X-Request-Id: 1760909723228538-17598018439845914892
-ETag: W/"65b8-CLKcCwSuBTmIZcfnXW5gmIKmFJc"
-Content-Length: 26040
-Date: Sun, 19 Oct 2025 21:35:28 GMT
+Set-Cookie: _yasc=y250zY9iIwXRneZb3HyTRJcgRoI5krFnO67idmy99+QbZARpRXXmWGFl70JEMw==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:49:21 GMT; secure
 Access-Control-Allow-Origin: *
+X-Powered-By: Express
+ETag: W/"65b8-OmwpzuiVityLqJphRRqk79nrxjw"
+Content-Length: 26040
+Date: Sun, 19 Oct 2025 21:49:28 GMT
 
 {
     "orders": [
@@ -2496,7 +2496,7 @@ Access-Control-Allow-Origin: *
     ],
     "pageInfo": {
         "page": 0,
-        "total": 124653,
+        "total": 124669,
         "limit": 30
     },
     "availableStations": [
