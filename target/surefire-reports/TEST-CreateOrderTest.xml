@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateOrderTest" time="0.593" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar /Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire 2025-10-20T00-35-07_976-jvmRun1 surefire-20251020003508567_1tmp surefire_0-20251020003508567_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mikhail"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.28+6-LTS"/>
+    <property name="user.name" value="mikhail"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.28.6.1"/>
+    <property name="localRepository" value="/Users/mikhail/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sb/prswt3s126g5yf2bq_wpyn6r0000gn/T/"/>
+    <property name="idea.version" value="2025.1.4"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="user.dir" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mikhail/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.28+6-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createOrderWithDifferentColors(String, String[])[1]" classname="CreateOrderTest" time="0.17">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "address": "Москва, ул. Ленина, д. 1",
+    "metroStation": "Сокольники",
+    "phone": "+79999999999",
+    "rentTime": 3,
+    "deliveryDate": "2024-12-31",
+    "comment": "Тестовый комментарий",
+    "color": [
+        "BLACK"
+    ]
+}
+HTTP/1.1 201 Created
+Date: Sun, 19 Oct 2025 21:35:15 GMT
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Express
+ETag: W/"10-yNIBQARqGAnpIkogmIvRKXgaTG8"
+X-Request-Id: 1760909715057287-5141754218642786347
+Content-Length: 16
+Set-Cookie: _yasc=FGQLJmMfcPZhGOY+GFzYWiH/t/dt6pfLVjyKPsPFZXHmS3VG8BmXO/4Zm8OBuw==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+Access-Control-Allow-Origin: *
+
+{
+    "track": 268887
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderWithDifferentColors(String, String[])[2]" classname="CreateOrderTest" time="0.151">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "address": "Москва, ул. Ленина, д. 1",
+    "metroStation": "Сокольники",
+    "phone": "+79999999999",
+    "rentTime": 3,
+    "deliveryDate": "2024-12-31",
+    "comment": "Тестовый комментарий",
+    "color": [
+        "GREY"
+    ]
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:15 GMT
+Set-Cookie: _yasc=NWzWPivnzqRg6qH68akGAP4FOHsXZYjYnYEF6KkKyNkiJfehcp7+q5a+8DCumw==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+Content-Length: 16
+Access-Control-Allow-Origin: *
+ETag: W/"10-mUjOiHaxUkC0TnroyrZF0ENgCOw"
+X-Request-Id: 1760909715199399-12964210457408871600
+
+{
+    "track": 449882
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderWithDifferentColors(String, String[])[3]" classname="CreateOrderTest" time="0.101">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "address": "Москва, ул. Ленина, д. 1",
+    "metroStation": "Сокольники",
+    "phone": "+79999999999",
+    "rentTime": 3,
+    "deliveryDate": "2024-12-31",
+    "comment": "Тестовый комментарий",
+    "color": [
+        "BLACK",
+        "GREY"
+    ]
+}
+HTTP/1.1 201 Created
+Content-Length: 16
+Access-Control-Allow-Origin: *
+Date: Sun, 19 Oct 2025 21:35:15 GMT
+Set-Cookie: _yasc=xz/dUfFCwJB6dZcDJZjErpo0knOpO8tsUkjiEjIH+HDI1vMm2gpZFKV6X+rohQ8=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+X-Powered-By: Express
+ETag: W/"10-GX+QkH9dbfPWsyCeCfPqfEv/nbs"
+Content-Type: application/json; charset=utf-8
+X-Request-Id: 1760909715353263-17624606332800411773
+
+{
+    "track": 448160
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderWithDifferentColors(String, String[])[4]" classname="CreateOrderTest" time="0.107">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "address": "Москва, ул. Ленина, д. 1",
+    "metroStation": "Сокольники",
+    "phone": "+79999999999",
+    "rentTime": 3,
+    "deliveryDate": "2024-12-31",
+    "comment": "Тестовый комментарий",
+    "color": [
+        
+    ]
+}
+HTTP/1.1 201 Created
+ETag: W/"10-IH9ZT3t8FjCl54xOSnpstlrR8l8"
+Content-Length: 16
+Access-Control-Allow-Origin: *
+X-Request-Id: 1760909715449091-11719770126593456870
+Set-Cookie: _yasc=wdxJRL/qLfLvwOgu3wDy0XdVqTpQU2dGBb1CzAH83c3ERZ4RWyjr7QmuRQsVHtc=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:15 GMT; secure
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Express
+Date: Sun, 19 Oct 2025 21:35:15 GMT
+
+{
+    "track": 865272
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateCourierTest" time="5.447" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar /Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire 2025-10-20T00-35-07_976-jvmRun1 surefire-20251020003508567_1tmp surefire_0-20251020003508567_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/test-classes:/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/classes:/Users/mikhail/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mikhail/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/mikhail/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/mikhail/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mikhail/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/mikhail/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/mikhail/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mikhail/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mikhail/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/mikhail/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/mikhail/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/mikhail/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/mikhail/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mikhail/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mikhail/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mikhail/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/mikhail/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/mikhail/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/mikhail/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mikhail"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7/target/surefire/surefirebooter-20251020003508567_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.28+6-LTS"/>
+    <property name="user.name" value="mikhail"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.28.6.1"/>
+    <property name="localRepository" value="/Users/mikhail/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sb/prswt3s126g5yf2bq_wpyn6r0000gn/T/"/>
+    <property name="idea.version" value="2025.1.4"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="user.dir" value="/Users/mikhail/Desktop/work/JAVA/Sprint_7"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mikhail/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.28+6-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createCourierWithAllRequiredFieldsSuccess" classname="CreateCourierTest" time="2.121">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "fullFields_1760909712092",
+    "password": "password123",
+    "firstName": "Сергей"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+Content-Length: 11
+Set-Cookie: _yasc=Azb1mWPfqbs4aDbcbuDooI4VnVMXmgmBrJkZRyJSzgFcUlJd3g46GrqWHL1oo7k=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:13 GMT; secure
+X-Powered-By: Express
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Content-Type: application/json; charset=utf-8
+X-Request-Id: 1760909713193673-6078248453734977155
+Date: Sun, 19 Oct 2025 21:35:13 GMT
+
+{
+    "ok": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="cannotCreateDuplicateCourier" classname="CreateCourierTest" time="0.42">
+    <failure message="1 expectation failed.&#10;JSON path message doesn&apos;t match.&#10;Expected: Этот логин уже используется&#10;  Actual: Этот логин уже используется. Попробуйте другой.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: Этот логин уже используется
+  Actual: Этот логин уже используется. Попробуйте другой.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at CreateCourierTest.cannotCreateDuplicateCourier(CreateCourierTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "uniqueLogin_1760909714206",
+    "password": "password123",
+    "firstName": "Петр"
+}
+HTTP/1.1 201 Created
+X-Request-Id: 1760909714291677-5249561886870149718
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Access-Control-Allow-Origin: *
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Set-Cookie: _yasc=73rnRKrAH5yQgpPLAhvGo/7TEfPKqmdThjgE2i0V+2tusNJr54T2S/xmVhJxEg==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Content-Length: 11
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+
+{
+    "ok": true
+}
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "uniqueLogin_1760909714206",
+    "password": "password123",
+    "firstName": "Петр"
+}
+HTTP/1.1 409 Conflict
+Content-Length: 112
+Set-Cookie: _yasc=vam127KjpS1XF77Z5pif7n09w7Fq46txTuNIM8EnL9UMD+vW9+valsJSVQ6jRsk=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+Access-Control-Allow-Origin: *
+X-Request-Id: 1760909714440143-9477960499929938510
+ETag: W/"70-sLG1ZktNk+Ab3iaKUMwxkdL4FJo"
+X-Powered-By: Express
+
+{
+    "code": 409,
+    "message": "Этот логин уже используется. Попробуйте другой."
+}
+HTTP/1.1 409 Conflict
+Content-Length: 112
+Set-Cookie: _yasc=vam127KjpS1XF77Z5pif7n09w7Fq46txTuNIM8EnL9UMD+vW9+valsJSVQ6jRsk=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+Access-Control-Allow-Origin: *
+X-Request-Id: 1760909714440143-9477960499929938510
+ETag: W/"70-sLG1ZktNk+Ab3iaKUMwxkdL4FJo"
+X-Powered-By: Express
+
+{
+    "code": 409,
+    "message": "Этот логин уже используется. Попробуйте другой."
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createCourierWithoutPasswordReturnsError" classname="CreateCourierTest" time="0.098">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "login123",
+    "firstName": "Иван"
+}
+HTTP/1.1 400 Bad Request
+Set-Cookie: _yasc=bi5RaFp8vh0RaUNIeNZl9MnEtKTPgoeePCjG4xzwJI4YCVh8ZJFWLz9Ga+fPcw==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+X-Request-Id: 1760909714698473-13584088481511454081
+Content-Length: 114
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+HTTP/1.1 400 Bad Request
+Set-Cookie: _yasc=bi5RaFp8vh0RaUNIeNZl9MnEtKTPgoeePCjG4xzwJI4YCVh8ZJFWLz9Ga+fPcw==; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+X-Request-Id: 1760909714698473-13584088481511454081
+Content-Length: 114
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createCourierWithoutLoginReturnsError" classname="CreateCourierTest" time="0.083">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "password123",
+    "firstName": "Иван"
+}
+HTTP/1.1 400 Bad Request
+Set-Cookie: _yasc=1nJogV9hVkFiEITkZGVn8KMTpD3USsf5PRtyjCOI39Na0enJxJVIvaqg7OWdqCY=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Access-Control-Allow-Origin: *
+X-Request-Id: 1760909714792530-14449704499101385749
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+Content-Length: 114
+X-Powered-By: Express
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+HTTP/1.1 400 Bad Request
+Set-Cookie: _yasc=1nJogV9hVkFiEITkZGVn8KMTpD3USsf5PRtyjCOI39Na0enJxJVIvaqg7OWdqCY=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Access-Control-Allow-Origin: *
+X-Request-Id: 1760909714792530-14449704499101385749
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+Content-Length: 114
+X-Powered-By: Express
+ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
+
+{
+    "code": 400,
+    "message": "Недостаточно данных для создания учетной записи"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="courierCanBeCreated" classname="CreateCourierTest" time="0.093">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "testCourier_1760909714838",
+    "password": "password123",
+    "firstName": "Иван"
+}
+HTTP/1.1 201 Created
+Access-Control-Allow-Origin: *
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2025 21:35:14 GMT
+X-Request-Id: 1760909714879020-430436090287749272
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=pZAAV1Ogyg1ONEci/Ap3a8pqbt+GRe2EOEFkNl7l2nGt2rUGhPChjCIRQjOzpSA=; domain=.praktikum-services.ru; path=/; expires=Wed, 17 Oct 2035 21:35:14 GMT; secure
+Content-Length: 11
+
+{
+    "ok": true
+}
+]]></system-out>
+  </testcase>
+</testsuite>
